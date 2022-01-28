@@ -2,77 +2,55 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-
-  <style>
-  
-
-    .gato {
-      border: 3px solid black;
-
-    }
-
-    .profile {
-      border-radius: 50%;
-    }
-
-    .vertical {
-      height: 600px;
-      position: absolute;
-      right: 10%;
-
-    }
-
-    body {
-
-      background-color: grey
-    }
-  </style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style></style>
 </head>
 
 <body>
-  <!--Foto Lado Direito Superior-->
-  <div class=vertical>
-    <h1>Marcos Sobrinho</h1>
-    <img class=profile src="images/avatar.jpg" alt="Homem" width="250" height="250" style="border:1px solid black">
-    <ul > <em><strong>Brasilia, Brazil &#127463;&#127479; </strong></em><br><br>
-      <li><a href="#Who">Quem sou</a></li>
-      <li><a href="#Skills">Habilidades</a></li>
-      <li><a href=https://www.linkedin.com/in/marcosvdss>Linkedin</a></li>
-    </ul>
-  </div>
+    <!--Foto Lado Direito Superior-->
+    <div class=profile-box>
+        <h1 id="profile">Marcos Sobrinho</h1>
+        <img class=Profile src="images/avatar.jpg" alt="Homem" width="250" height="250" style="border:1px solid black">
+        <ul class="ul-profile"> <em><strong>Brasilia, Brazil &#127463;&#127479; </strong></em><br><br>
+            <li><a href=" #Who">Quem sou</a></li>
+            <li><a href="#Skills">Habilidades</a></li>
+            <li><a href=https://www.linkedin.com/in/marcosvdss>Linkedin</a></li>
+        </ul>
+    </div>
+    <br><br><br>
 
-  <!--Corpo-->
+    <!--Corpo-->
 
-  <div>
-    <H2 id="Who">#Quem Sou</H2>
-    <p style="font-family:Arial">Olá, me chamo Marcos.<br>
-      Nasci e fui criado em Brasilia, sou entusiasta de filmes de terror Japones e estudo Desenvolvimento
-      Web na
-      <a href=https://www.betrybe.com/Trybe>Trybe!&#128640</a><br>
-      Me apaixonei por programção por ser extremamente curioso em tentar descobrir como as coisas funcionam.<br>
-      Tenho um gato que se chama Gato.
+    <div id="Me">
+        <H2 id="Who">#Quem Sou</H2>
+        <p style="font-family:Arial ">Olá, me chamo Marcos.<br> Nasci e fui criado em Brasilia, sou entusiasta de filmes de terror Japones e estudo Desenvolvimento Web na
+            <a href=https://www.betrybe.com/Trybe>Trybe!&#128640</a><br> Me apaixonei por programção por ser extremamente curioso em tentar descobrir como as coisas funcionam.<br> Tenho um gato que se chama Gato.
 
 
-    </p>
+        </p>
+    </div>
     <br>
-
-    <h2 id="Skills">#Habilidades</h2>
-    <p style="font-family:Arial">
-      <em>
+    <div id="skills">
+        <h2 id="Skills">#Habilidades</h2>
+        <p style="font-family:Arial ">
+            <em>
         <ol>
           <li> Soft Skills</li>
           <li>HTML & CSS</li>
           <li>Cozinhar</li>
           <li> Git & GitHub</li>
-         <strong> <li>Me comunicar com gatos</li></strong>
+          <strong>
+            <li>Me comunicar com gatos</li>
+          </strong>
         </ol>
-      </em> Não necessariamente nessa ordem...&#128065;&#128065; <br><br><br>
-  </div>
+      </em> Não necessariamente nessa ordem...&#128065;&#128065;
+    </div>
+    <br><br><br>
 
-
-
-
+    <div id="footer">
+        <a href="#profile"><img src="images/home-smile-regular-24.png"></a>
+    </div>
 </body>
 
 </html>
