@@ -1,0 +1,64 @@
+    .profile-box {
+        background-color: rgba(10, 10, 10, 0.2);
+        width: 300px;
+        border: 10px outset #1062C5;
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    body {
+        background-image: url(images/fuji.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-color: grey
+    }
+    
+    .ul-profile {
+        background-color: rgb(200, 200, 200, 0.6);
+        text-decoration: underline;
+        border: solid black 1px;
+        border-style: solid black;
+        line-height: 20px;
+        font-family: monospace;
+        padding: 10px;
+        margin: 10px;
+        list-style-type: none;
+    }
+    
+    .Profile {
+        border-radius: 50%;
+    }
+    
+    #footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #1062C5;
+        color: white;
+        text-align: center;
+    }
+    
+    #Me {
+        background-color: rgb(200, 200, 200, 0.6);
+        border: solid black 1px;
+        border-style: solid black;
+        line-height: 20px;
+        font-family: monospace;
+        padding: 10px;
+        margin: 10px;
+        list-style-type: none;
+    }
+    
+    #skills {
+        background-color: rgb(200, 200, 200, 0.6);
+        border: solid black 1px;
+        border-style: solid black;
+        line-height: 20px;
+        font-family: monospace;
+        padding: 10px;
+        margin: 10px;
+        list-style-type: none;
+    }
