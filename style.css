@@ -8,6 +8,14 @@
         text-decoration: underline;
     }
     
+    .cat {
+        float: right;
+        width: 150px;
+        border: 1px solid black;
+        margin: auto 5px;
+        border-radius: 50%;
+    }
+    
     body {
         background-image: url(images/fuji.jpg);
         background-repeat: no-repeat;
@@ -27,7 +35,7 @@
         list-style-type: none;
     }
     
-    .Profile {
+    .avatar {
         border-radius: 50%;
     }
     
